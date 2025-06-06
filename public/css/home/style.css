@@ -1,0 +1,58 @@
+ body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #f4f7fa;
+ }
+
+ .hero {
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../img/home/backgroup.png');
+     background-size: cover;
+     background-position: center;
+     color: white;
+     padding: 120px 0;
+     text-align: center;
+ }
+
+ .card-img-top {
+     height: 180px;
+     object-fit: cover;
+     transition: transform 0.3s;
+ }
+
+ .card:hover .card-img-top {
+     transform: scale(1.05);
+ }
+
+ .stats-section {
+     background-color: #007bff;
+     color: white;
+     padding: 40px 0;
+ }
+
+ .navbar {
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ footer {
+     background-color: #1a252f;
+     color: white;
+     padding: 50px 0;
+ }
+
+ .search-form {
+     max-width: 500px;
+     margin: 0 auto;
+ }
+
+ @media (max-width: 768px) {
+     .hero {
+         padding: 80px 0;
+     }
+
+     .card-img-top {
+         height: 150px;
+     }
+
+     .stats-section h3 {
+         font-size: 1.5rem;
+     }
+ }
